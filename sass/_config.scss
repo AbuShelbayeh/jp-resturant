@@ -2,10 +2,11 @@
 @import "variables";
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
-body, html {
-  font-family: 'Montserrat', sans-serif;
+html {
+  font-family: $main-font;
+  font-size: calc(1em + 1vw);
+  background-color: #212121;
 }
 
 .bold {
@@ -13,4 +14,8 @@ body, html {
 }
 .uppercase {
   text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
 }

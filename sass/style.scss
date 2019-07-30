@@ -1,1 +1,45 @@
 @import "config";
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100vh;
+  background-image: url('../images/header-bg.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  // padding-right: 2rem;
+  nav {
+    ul {
+      padding: 0;
+      list-style: none;
+      margin: .5rem 0rem 1rem 0rem;
+      li {
+        display: inline-block;
+        margin-right: 1rem;
+      }
+      li:last-child {
+        margin-right: 0rem;
+      }
+      a {
+        color: $color-green;
+        
+      }
+    }
+  }
+  .sushi-art {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .header-text {
+    color: $color-green;
+    font-size: 2em;
+    margin: 2rem 0;
+    p {
+      margin: 0;
+    }
+    p.bold {
+      font-size: 1.4em;
+    }
+  }
+}
