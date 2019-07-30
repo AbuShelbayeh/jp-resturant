@@ -7,13 +7,14 @@ header {
   height: 100vh;
   background-image: url('../images/header-bg.png');
   background-position: top;
+  background-size: 100%;
   background-repeat: no-repeat;
   // padding-right: 2rem;
   nav {
     ul {
       padding: 0;
       list-style: none;
-      margin: .5rem 0rem 1rem 0rem;
+      margin: 1rem 0rem 1rem 0rem;
       li {
         display: inline-block;
         margin-right: 1rem;
@@ -40,6 +41,30 @@ header {
     }
     p.bold {
       font-size: 1.4em;
+    }
+  }
+}
+
+#cook {
+  display: flex;
+
+  .cook-text {
+    justify-self: center;
+    align-self: center;
+    color: rgba(255, 255, 255, 0.623);
+    font-size: .7em;
+    text-align: left;
+    padding: 0 4rem;
+
+    .title {
+      font-family: 'GoodDog Cool';
+      color: $color-green;
+      font-size: 2em;
+    }
+  }
+  .cook-image {
+    img {
+      width: 600px;
     }
   }
 }
